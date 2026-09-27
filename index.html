@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ee">
+  <meta name="description" content="Small-batch cakes, cookies and fresh bakes from Pastry Diaries Kenya. Delivered across Nairobi. Order direct on Instagram.">
+  <title>Pastry Diaries — A little joy, baked fresh</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Pastry Diaries home"><span class="mark">P<span>D</span></span><span class="wordmark-name">Pastry <b>Diaries</b><small>NAIROBI, KENYA</small></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#menu">The menu</a><a href="#story">Our story</a><a href="#visit">Find us</a>
+      <a class="nav-order" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer">Order on Instagram <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> Baked with a little extra love</p>
+        <h1 id="hero-title">Good days<br>start <em>with</em> good<br class="mobile-break"> pastry.</h1>
+        <p class="hero-intro">Little joys, made from scratch. Find your new favourite, then let us bring it to your door.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span aria-hidden="true">↓</span></a><a class="text-link" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer">Order direct <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-dot"></span><span>Freshly baked in Nairobi<br><b>Deliveries within Nairobi</b></span></div>
+      </div>
+      <div class="hero-visual"><img class="hero-img" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=82" alt="A celebration cake finished with cream and chocolate" fetchpriority="high"><div class="hero-sticker" aria-hidden="true"><span>made</span><b>with<br>love</b><span>daily</span></div><div class="image-caption"><span>01 / SOMETHING SWEET</span><span>Made for sharing</span></div></div>
+      <a href="#menu" class="scroll-cue" aria-label="Scroll to the menu">↓</a>
+    </section>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading"><div><p class="eyebrow">A good place to begin</p><h2 id="menu-title">Made for your<br><em>kind of sweet.</em></h2></div><p class="section-aside">From slow mornings to big little celebrations, there’s something worth gathering around.</p></div>
+      <div class="filter-row" role="group" aria-label="Filter menu by category"><span class="filter-label">TAKE YOUR PICK</span><div class="filters"><button class="filter is-active" data-filter="all" aria-pressed="true">Everything <span>06</span></button><button class="filter" data-filter="cakes" aria-pressed="false">Cakes</button><button class="filter" data-filter="bakes" aria-pressed="false">Breads & bakes</button><button class="filter" data-filter="cookies" aria-pressed="false">Cookies</button></div></div>
+      <div class="product-grid" aria-live="polite">
+        <article class="product-card" data-category="cakes"><a class="product-photo" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer" aria-label="Ask about the chocolate celebration cake"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=760&q=78" alt="Chocolate celebration cake with piped cream" loading="lazy"><span class="photo-index">01</span><span class="photo-arrow" aria-hidden="true">↗</span></a><div class="product-meta"><div><h3>Chocolate celebration cake</h3><p>For the candles, and the seconds.</p></div><span class="product-type">CAKES</span></div></article>
+        <article class="product-card" data-category="cakes"><a class="product-photo" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer" aria-label="Ask about the marble butter cake"><img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=760&q=78" alt="Freshly sliced marbled cake with a tender crumb" loading="lazy"><span class="photo-index">02</span><span class="photo-arrow" aria-hidden="true">↗</span></a><div class="product-meta"><div><h3>Marble butter cake</h3><p>A familiar favourite, swirled by hand.</p></div><span class="product-type">CAKES</span></div></article>
+        <article class="product-card" data-category="bakes"><a class="product-photo" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer" aria-label="Ask about fresh pastries"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=760&q=78" alt="Golden flaky pastries cooling on a tray" loading="lazy"><span class="photo-index">03</span><span class="photo-arrow" aria-hidden="true">↗</span></a><div class="product-meta"><div><h3>Golden morning pastries</h3><p>Flaky layers for a slower start.</p></div><span class="product-type">BAKES</span></div></article>
+        <article class="product-card" data-category="cakes"><a class="product-photo" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer" aria-label="Ask about the strawberry cream cake"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=760&q=78" alt="Strawberry and cream cake for sharing" loading="lazy"><span class="photo-index">04</span><span class="photo-arrow" aria-hidden="true">↗</span></a><div class="product-meta"><div><h3>Strawberries & cream</h3><p>Soft sponge, fresh fruit, happy table.</p></div><span class="product-type">CAKES</span></div></article>
+        <article class="product-card" data-category="cookies"><a class="product-photo" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer" aria-label="Ask about a box of cookies"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=760&q=78" alt="A fresh batch of golden cookies" loading="lazy"><span class="photo-index">05</span><span class="photo-arrow" aria-hidden="true">↗</span></a><div class="product-meta"><div><h3>Cookie tin</h3><p>One for the road. And one for later.</p></div><span class="product-type">COOKIES</span></div></article>
+        <article class="product-card" data-category="bakes"><a class="product-photo" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer" aria-label="Ask about fresh bread"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=760&q=78" alt="Rustic, freshly baked loaves of bread" loading="lazy"><span class="photo-index">06</span><span class="photo-arrow" aria-hidden="true">↗</span></a><div class="product-meta"><div><h3>Fresh-baked loaves</h3><p>Warm, simple, gone by lunch.</p></div><span class="product-type">BAKES</span></div></article>
+      </div>
+      <div class="menu-foot"><span>Something specific in mind?</span><a class="text-link" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer">Ask us what’s baking <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="story-section" id="story" aria-labelledby="story-title"><div class="story-photo"><img src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?auto=format&fit=crop&w=1100&q=80" alt="Hands preparing fresh dough in a sunlit bakery" loading="lazy"><span class="story-photo-label">A LITTLE CARE IN EVERY BATCH</span></div><div class="story-copy"><p class="eyebrow">A note from our kitchen</p><h2 id="story-title">The best bits<br>are <em>made by hand.</em></h2><p>We believe the little things deserve the good stuff. A soft centre. A golden edge. A cake made just for your people.</p><p>So we bake with care, keep things fresh, and make room for one more slice. That’s the Pastry Diaries way.</p><a class="text-link" href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer">Get to know us <span aria-hidden="true">↗</span></a><span class="story-flourish" aria-hidden="true">♡</span></div></section>
+
+    <section class="order-section" id="visit"><div class="order-inner"><div class="order-topline"><span class="note-dot"></span> THE NEXT GOOD THING STARTS HERE</div><h2>A little joy,<br><em>on its way.</em></h2><p>Tell us what you’re celebrating, craving, or saving for later. We’ll help you find the right bake.</p><a class="button button-light" href="https://wa.me/254733581888" target="_blank" rel="noreferrer">Chat with us on WhatsApp <span aria-hidden="true">↗</span></a><div class="order-details"><div><span>FIND US</span><b>Nairobi, Kenya</b></div><div><span>DELIVERY</span><b>Across Nairobi</b></div><div><span>CALL OR WHATSAPP</span><a href="tel:+254733581888">+254 733 581 888</a></div><div><span>FOLLOW ALONG</span><a href="https://www.instagram.com/pastry_diaries.ke/" target="_blank" rel="noreferrer">@pastry_diaries.ke ↗</a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark footer-mark" href="#top"><span class="mark">P<span>D</span></span><span class="wordmark-name">Pastry <b>Diaries</b><small>NAIROBI, KENYA</small></span></a><span>Made with love, shared with you.</span><a href="#top" class="back-top">Back to top ↑</a><small class="copyright">© <span id="year"></span> Pastry Diaries Kenya</small></footer>
+  <a class="whatsapp-button" href="https://wa.me/254733581888" target="_blank" rel="noreferrer" aria-label="Chat with Pastry Diaries on WhatsApp"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.3-4.9a8.4 8.4 0 1 1 16.2-3.8Zm-8.4-6.7a6.8 6.8 0 0 0-5.8 10.3l.2.4-.8 2.8 2.9-.8.4.2a6.8 6.8 0 1 0 3.1-12.9Zm3.8 9.6c-.2-.1-1.2-.6-1.4-.6-.2-.1-.3-.1-.4.1l-.6.7c-.1.1-.2.2-.4.1a5.6 5.6 0 0 1-2.8-2.4c-.2-.3.2-.3.5-1 .1-.1 0-.3 0-.4l-.6-1.4c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.8s.8 2 1 2.2c.1.2 1.6 2.5 4 3.4 1.5.6 2.1.6 2.8.5.4-.1 1.2-.5 1.4-1 .2-.4.2-.9.2-1s-.2-.2-.4-.3Z"/></svg><span>Chat on WhatsApp</span></a>
+</body>
+</html>
